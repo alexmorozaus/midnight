@@ -1,0 +1,68 @@
+# FILE: .gitignore
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+sdist/
+share/python-wheels/
+
+# --- Test / coverage caches ---
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# --- Environment files (keep secrets out of git) ---
+.env
+*.env
+.env.*
+
+# --- Logs / scratch ---
+logs/
+*.log
+files_dump.txt
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Flask instance folder (if ever used) ---
+instance/
+
+# --- Project-specific tooling ---
+.tools/
+downloads/
